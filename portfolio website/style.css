@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins','sans-serif';
+    
+}
+
+
+.header{
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    top: 10;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #539459;
+    padding-left:30px ;
+    padding-right: 20px;
+    font-size: 20px;
+    z-index: 100;
+    color: white;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    margin: 8px;
+    transition: 0.9s;
+}
+.navbar a:hover {
+    color: rgb(226, 144, 44);
+}
+.navbar a.active {
+    color: rgb(226, 144, 44);
+}
+.home{
+    min-height: 80vh;
+    margin-left: 50px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img{
+    margin: 80px 160px 50px 50px;
+    
+}
+.home-img img{
+    border-radius: 50%;
+    
+}
+.home h3{
+    margin: 10px 0px 10px 0px;
+    font-size: 30px;
+}
+.home h1{
+    font-size: 50px;
+}
+.home p{
+    font-size:20px ;
+    margin-bottom: 20px;
+}
+.home a{
+    font-size: 30px;
+    transition:0.5s;
+}
+.home span{
+    color: rgb(199, 199, 6);
+}
+.home a:hover{
+    color: white;
+    
+}
+.btn{
+    background-color:  rgb(199, 199, 6);
+    color: black;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgb(204, 224, 129);
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+   
+}
+.about-img img{
+   /*padding-right: 80px;*/
+    border-radius: 10%;
+    box-shadow: 0 0 1rem rgb(250, 250, 240);
+}
+.about-img{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+.about-content{
+    padding-left: 50px;
+    padding-right: 40px;
+}
+.about-content h2{
+    font-size: 50px;
+}
+.about-content h3{
+    font-size: 30px;
+    margin: 10px 0 20px 0;
+    color:rgb(199, 199, 6) ;
+}
+.about-content p{
+    font-size: 15px;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 5 rem;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.projects{
+    margin-bottom: 0px;
+    color: #474973;
+    background-color: #539459;
+    padding: 50px 0 50px 0;
+}
+.projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.projects-box{
+    text-align: center;
+    width: 30%;
+    margin-top: 50px;
+   
+}
+.projects-box img{
+    margin: 50px 0 50px 0;
+}
+.projects-box h3{
+    font-size: 30px;
+}
+.projects-box p{
+    font-size: 20px;
+}
+.heading span{
+    color: rgb(199, 199, 6);
+}
+.projects-box img{
+    border-radius: 5%;
+   
+}
+.projects-box img:hover{
+    box-shadow: 0 0 5rem rgb(250, 250, 240);
+}
+.skills-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+   padding: 50px 0 50px 0;
+   
+}
+.skills{
+    height: 110vh;
+    background-color: #141414;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #776168;
+}
+.skills h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.skills-details li{
+    font-size: 20px;
+    padding: 8px;
+    
+}
+
+
+.contact form{
+    max-width: 60rem;
+    margin: 2rem auto;
+    text-align: center;
+    margin-bottom: 3 rem;
+
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.contact form .input-box input,
+.contact form textarea {
+    width: 90%;
+    padding:1.5rem ;
+    font-size: 1.2rem;
+    color:black ;
+    background-color:#141414 ;
+    border-radius: .8rem;
+    margin: .7rem 0;
+    align-items: center;
+    resize: none;
+}
+.contact form .input-box input{
+    width: 30%;
+}
+.contact form .btn{
+    cursor: pointer;
+    font-size: 30px;
+    background-color:#FF6F59;
+}
+.contact{
+    background-color: #C0FDFB;
+    padding-top: 50px;
+    color: #597557;
+    padding-bottom: 50px;
+}
+.contact h3{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    color:#FF6F59
+}
+.contact p{
+    font-size: 20x;
+    padding: 10px 0 10px 50px;
+    color: #FF6F59;
+}
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: ;
+    height: 30vh;
+    background-color: #000505;
+    color: white;
+    flex-direction: column;
+}
+.footer-text{
+    font-size: 1rem;
+
+}
+.footer-iconTop a{
+display: inline-flex;
+padding-top: 15px;
+}
